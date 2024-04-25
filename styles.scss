@@ -137,3 +137,7 @@
         border-color: #5f5;
     }
 }
+_safeMint{(msg.sender, nextTokenId);
+    _hasMinted[msg.sender] = true;
+    nextTokenId++;
+}
